@@ -2,38 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Uplifting Blog</title>
+  <title>Projects - My Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2920/2920063.png"/>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2920/2920063.png" />
 </head>
-<body class="bg-gradient-to-br from-blue-100 to-indigo-200 min-h-screen font-sans text-gray-800 scroll-smooth">
-  <nav class="bg-white shadow-md fixed w-full z-10">
+<body class="bg-gradient-to-br from-yellow-100 to-orange-200 min-h-screen text-gray-800">
+  <nav class="bg-white shadow-md">
     <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
       <h1 class="text-xl font-bold text-indigo-600">🌸 My Blog</h1>
       <ul class="flex space-x-6 text-sm text-gray-600 font-medium">
-        <li><a href="#welcome" class="hover:text-indigo-500">Welcome</a></li>
-        <li><a href="#content" class="hover:text-indigo-500">Blog</a></li>
-        <li><a href="#projects" class="hover:text-indigo-500">Projects</a></li>
-        <li><a href="#conclusion" class="hover:text-indigo-500">Conclusion</a></li>
+        <li><a href="index.html" class="hover:text-indigo-500">Home</a></li>
+        <li><a href="about.html" class="hover:text-indigo-500">About</a></li>
+        <li><a href="blog.html" class="hover:text-indigo-500">Blog</a></li>
+        <li><a href="projects.html" class="text-indigo-600 font-bold">Projects</a></li>
+        <li><a href="contact.html" class="hover:text-indigo-500">Contact</a></li>
       </ul>
     </div>
   </nav>
-  <h2 class="text-3xl font-bold text-indigo-700 text-center mt-10">My Projects</h2>
-<div class="max-w-3xl mx-auto mt-6 p-6 bg-white rounded-xl shadow-xl space-y-6 text-gray-700">
-  <div>
-    <h4 class="text-lg font-semibold text-indigo-500">💻 Portfolio Website</h4>
-    <p>Built using HTML, Flask & Tailwind — deployed on Render.com.</p>
-  </div>
-  <div>
-    <h4 class="text-lg font-semibold text-indigo-500">📝 Blog with Tailwind</h4>
-    <p>A clean and responsive multi-page blog with Tailwind CSS.</p>
-  </div>
-  <a href="contact.html" class="inline-block mt-6 bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-500">Contact Me</a>
-</div>
-</section>
-<footer class="text-center text-gray-500 text-sm pb-6 mt-10">
-    © 2025 | Crafted with 💙 by Me | All Rights Reserved
+  <section class="max-w-5xl mx-auto px-6 py-12">
+    <h2 class="text-3xl font-bold text-center text-indigo-700 mb-8">🚧 My Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-indigo-600 mb-2">🌐 Personal Portfolio</h3>
+        <p class="text-gray-700">A clean and responsive personal portfolio built using HTML, Tailwind CSS, and Flask to showcase my skills and contact info.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-indigo-600 mb-2">📄 Blog Website</h3>
+        <p class="text-gray-700">This blog (you're reading now!) where I share thoughts, inspirations, and lessons. Built using Tailwind for styling and hosted on GitHub Pages.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-indigo-600 mb-2">📊 Data Visualization App</h3>
+        <p class="text-gray-700">An interactive Python + Streamlit app that visualizes uploaded data files. Great for exploring CSVs quickly!</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-indigo-600 mb-2">💬 Contact Form with Flask</h3>
+        <p class="text-gray-700">A working contact form built with Flask backend and Tailwind CSS frontend. Submits and processes messages via POST.</p>
+      </div>
+    </div>
+  </section>
+  <footer class="text-center text-gray-500 text-sm pb-6">
+    © 2025 | Built with 🛠️ and 💜 by Me
   </footer>
-  </body>
+</body>
 </html>
